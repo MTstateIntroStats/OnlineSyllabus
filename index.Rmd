@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: "Syllabus for Blended Sections: Fall 2020"
+author: "Syllabus for Online Sections: Fall 2020"
 output:
   html_document:
       theme: cerulean
@@ -20,7 +20,7 @@ pal <- brewer.pal(6, 'Pastel1')
 
 ---
 
-> **_NOTE_**: This syllabus is for blended sections of STAT 216 only. For online sections of STAT 216, refer to the [online section syllabus](http://www.math.montana.edu/courses/s216/syllabus.html).
+> **_NOTE_**: This syllabus is for online sections of STAT 216 only. For blended sections of STAT 216, refer to the [blended section syllabus](https://mtstateintrostats.github.io/Syllabus/).
 
 ---
 
@@ -60,8 +60,7 @@ Phone: (406) 993-5350
 
 # Course calendars
 
-* STAT 216 calendar for students in blended Mon/Wed/Fri sections
-* STAT 216 calendar for students in blended Tue/Thur sections
+* STAT 216 calendar for students in online sections
 * [MSU academic calendar](http://catalog.montana.edu/academiccalendar/)
 
 ---
@@ -98,7 +97,8 @@ Entrance to STAT 216 requires at least one of the following be met:
 
 - Grade of C- or better in a 100-level math course (or equivalent)
 - Grade of B or better in MATH 096
-- Level 3H on the [Math Placement Exam](http://www.montana.edu/testing/MPLEX.html) or a good score on Math portion of SAT (540 or higher) or ACT (23 or higher)
+- Level 30 on the [Math Placement Exam](http://www.montana.edu/testing/MPLEX.html) or a combination of a good score on Math portion of SAT (540 or higher) or ACT (23 or higher) and/or good high school GPA
+  + See the [Math Prerequisite Flowchart](http://www.math.montana.edu/undergrad/documents/MHiearchyFlowchart.pdf) for more details.
 
 You should have familiarity with computers and technology (e.g., Internet browsing, word processing, opening/saving files, converting files to PDF format, sending and receiving e-mail, etc.).
 
@@ -109,52 +109,64 @@ You should have familiarity with computers and technology (e.g., Internet browsi
  
 # Course materials and resources
 
-### Online textbook and in-class activities
-The free, online textbook for this course can be found at [https://mtstateintrostats.github.io/IntroStatTextbook/](https://mtstateintrostats.github.io/IntroStatTextbook/) (also linked in D2L).
+### Required Textbook
+The required textbook for the course is *Introduction to Statistical Investigations for Montana State University* by Tintle, Chance, Cobb, Rossman, Roy, Swanson, and VanderStoep (Wiley, 2016). MSU negotiated a reduced price for the textbook available only through the MSU bookstore. The e-textbook is required to access videos that will be assigned prior to each class period. The print textbook is optional, but access to [WileyPlus](https://education.wiley.com/ngonboard/index.html#/Login) is recommended. Other materials, such as readings and videos will be available in D2L. 
 
-A workbook of in-class activities is available for purchase in the MSU Bookstore. Activities are also available online, but students are expected to bring a printed copy of that week's activity to class.
 
-**Note that online sections will be using the previous textbook for this course, _Introduction to Statistical Investigations_ by Tintle et al., through the WileyPLUS platform.** Students enrolled in the online section will need to purchase a subscription to WileyPLUS, but will not need to purchase the activity workbook from the MSU Bookstore. See your section's D2L page for more details.
+**Note that blended sections will be using a downloadable textbook.** Students enrolled in a blended section will need to purchase the activity workbook from the MSU Bookstore, but should not purchase the text by Tintle, et al. See your section's D2L page for more details.
 
 ### STAT 216 YouTube channel
 Visit our [YouTube channel](https://www.youtube.com/channel/UClGAq0KVt2d2sKd4aIAI4qQ/videos) for short instructional videos on course material (also linked in D2L).
 
-### RStudio
-We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. Students have four options for accessing this free software:
-
-1. Download to your own laptop. (Note R and RStudio will not run on iPad, notebooks, or Chromebooks. If you have one of these devices, see the cloud-based option below.)
-
-* Download and install [R](https://cloud.r-project.org/).
-* Download and install [RStudio Desktop](https://rstudio.com/products/rstudio/).
-* Install the `catstats` package.
-
-2. Use RStudio through the [RStudio Cloud](https://login.rstudio.cloud/register?redirect=https%3A%2F%2Fclient.login.rstudio.cloud%2Foauth%2Flogin%3Fshow_auth%3D0%26show_login%3D1%26show_setup%3D1). This resource allows you to use RStudio through a web browser. It is free for use, but it does limit you to a certain number of project hours per month.
-
-3. Use RStudio through an MSU [virtual machine](https://studentlabs.montana.edu/remotelabs/howto.html).
-
-4. Use RStudio in an MSU on-campus computer lab. 
-
 ### Learning management tools
 
-- [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
+- [**Course Webpage**](http://www.math.montana.edu/courses/s216/): Find web links for activities not included in your textbook, data sets used in the course, plus additional resources.  Note the course webpage contains information for both blended and online sections.  Be sure to note the requirements for online students.
 
-- [**Gradescope**](https://www.gradescope.com/saml): Submit and review quizzes and assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+- [**D2L**](https://ecat1.montana.edu/): Find your instructor contact info, announcements, RATs, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
+  + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
+  + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
+- [**Gradescope**](https://www.gradescope.com/): Submit and review assignments, review exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
 
+- [**Web Applets**](http://www.rossmanchance.com/ISIapplets.html): Used on nearly every activity for exploratory and inferential data analysis.
+  + Students in a blended section will utilize the statistical software package `R` for exploratory and inferential data analysis.  `R` will also be used in Stat 217.
+  
+- [**Math Learning Center**](http://www.math.montana.edu/undergrad/mlc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses.
+
+- [**WileyPlus**](https://education.wiley.com/ngonboard/index.html#/Login): Additional resources for the textbook.
+  
  <a href="#top">Back to top</a>
  
  ---
  
 # Course format and organization
  
-Most sections of Stat 216 will be using a blended classroom format. Each week, students will:
+This is an online course. This perhaps obviously means we will never meet in person. That greatly changes your role as a student as well as mine as an instructor. 
 
-* meet with your fellow student cohort in your assigned classroom one class period per week for **in-class group activities and discussion**,
-* **read** assigned sections of the online textbook and **watch videos** on that week's content,
-* read that week's **case study** and answer **discussion questions** on the case study via [D2L](https://ecat1.montana.edu/),
-* complete one **assignment** in [Gradescope](https://www.gradescope.com/saml).
+### Weekly Expectations
 
-Online sections will be available for those students who would prefer not to meet face-to-face in the classroom. If you are unable to attend the face-to-face portions of the blended class, please make sure to register for an online section. 
+Each week, online students will be expected to:
+
+* **read** assigned sections of the textbook and **watch videos** on that week's content,
+* complete 1 - 2 **RATs** (readiness assessment tests) in [D2L](https://ecat1.montana.edu/) to gauge your understanding of the readings and videos,
+* complete 1 - 2 **explorations** in the textbook or provided on [D2L](https://ecat1.montana.edu/),
+* complete 1 **discussion post** based on the week's content or a relevant case study,
+* complete 1 **assignment** in [Gradescope](https://www.gradescope.com/).
+
+### Online Instructor's Role
+
+Most of the communication in the course should be done using the D2L Discussion and Communication tools. Personal questions you may have can be emailed to your instructor using the D2L Email link. Your instructor will check email periodically, and try to respond to emails as promptly as possible if the email is received during usual daytime or early evening hours. Office hour will be the best way to living streaming Q&A.
+
+Questions on course material can be posted in the appropriate Discussion folders for that topic. Responses from your instructor to those questions will be posted as a response to that Discussion posting. You are encouraged to post questions on course material in the Discussion folder so that everyone may benefit from the responses! You can post questions and respond to each other's questions. It honestly helps to try to explain things to each other instead of waiting for the instructor’s responses, as trying to explain things out loud helps us learn even if the answer is not correct! We all have a voice in an online learning environment! If you wish to communicate with peers within D2L to discuss homework questions and the like, any messages you send privately to each other are not seen by course instructors. You may even view the Classlist and email other members of the course to ask questions or simply to generally communicate. Only what is posted in Discussion Folders is available for everyone to see. 
+
+
+### Online Student's Role
+
+It is important for you to understand that your role in this class is not to be a passive note taker because there is no lecture in which to take notes! Each of you is expected to read and understand the material in the text, work on the homework problems, complete all assigned work, and ask questions about concepts you do not understand (and hopefully answer a few questions about the concepts you do understand) in the discussion section of the course. Simply reading the words in the text without comprehension, guessing your way through the assigned work, or looking at the solutions to the homework and thinking you understand how to do the problem is a waste of time and a sure way to fail the course. Your instructor will answer your questions but you have to learn the material on your own. In this class, more than any other course you have taken, you are responsible for your education. Note: The proper way to learn material presented in this course is to read the chapter, work through the homework problems, and then complete all assigned work on your own. Don’t rely only on the feedback to learn the material. Learning in this way will not train you to think independently, and may show you how to do one particular problem, but you will not be able to read another problem and be able to solve it. Point being: statistics is about understanding all aspects of an idea presented, not just a systematic way of using a formula. In other words, this is NOT a math class!
+
+### Group Expectations
+
+Our use of groups in this course is based on educational research which provides strong evidence that working in groups is effective and helps us learn. Additionally, you will build team skills that employers look for when hiring. By expressing your opinions and catching each other’s mistakes, you will learn to communicate statistical concepts. These are partly “common sense” ideas (for instance, gathering more data provides a better foundation for decision making), but they are often phrased in odd ways. We find it really helps to talk about them with others. 
 
  <a href="#top">Back to top</a>
  
@@ -167,37 +179,44 @@ Your grade in STAT 216 will contain the following components.
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 grades <- tribble(
   ~category,  ~percent,
-  "Case study and D2L discussion", 5,
-  "Videos", 5,
-  "In-class activities", 10,
+  "D2L discussion", 10,
+  "Readiness Assessment Tests (RATs)", 5,
+  "Explorations", 10,
   "Assignments", 30,
-  "Midterm exams (2)", 30,
-  "Final group project", 20
+  "Midterm exams (2)", 25,
+  "Final group project/Exam", 20
 )
-grades$category <- fct_relevel(grades$category, "Case study and D2L discussion", "Videos", "In-class activities", "Assignments", "Midterm exams (2)", "Final group project")
+grades$category <- fct_relevel(grades$category, "D2L discussion", "Readiness Assessment Tests (RATs)", "Explorations", "Assignments", "Midterm exams (2)", "Final group project/Exam")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
   geom_text(aes(x=rep(1, 6), 
-                label=c("Case study and D2L discussion (5%)",
-                        "Videos (5%)",
-                        "In-class activities (10%)",
+                label=c("D2L discussion (10%)",
+                        "Readiness Assessment Tests (RATs) (5%)",
+                        "Explorations (10%)",
                         "Assignments (30%)",
-                        "Midterm exams (30%)",
-                        "Final group project (20%)"), 
-                y=c(97.5,92.5,85,65,35,10))) + 
+                        "Midterm exams (25%)",
+                        "Final group project/Exam (20%)"), 
+                y=c(95,87.5,80,60,32.5,10))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
 ```
 
-1. Case study and D2L discussion (5%): Each week, you will read a case study and answer reading questions on that case study, posting answers and discussion in the D2L Discussion Forum.
-2. Videos (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. Check-in questions will be embedded in the videos.
-3. In-class activities (10%): You will meet with your cohort and instructor once per week to work through an group activity focused on the material for that week. Attendance and completion of the activity counts towards this portion of your grade.
-4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/saml).
-5. Midterm exams (30%): There will be two in-class midterm exams (worth 15% each). Midterm exam 1 will be during the week of September 22-25; Midterm exam 1 during November 4-10. Potential midterm exam questions will be released the week prior to the exam, and you will be given a randomly chosen subset of these questions during your cohort's scheduled in-class time.
-6. Final group project (20%): In lieu of a final exam, you will complete a group project. The project will involve a complete data analysis on a research question of your choice, a written report, and a recorded 5-minute presentation.
+1. D2L discussion (10%): Each week, you will answer questions on a reading, video, exploration, or provided relevant case study, posting answers and discussion in the D2L Discussion Forum.  Discussion posts will be due each **Sunday at 11pm MST**.
+2. Readiness Assessment Tests (RATs) (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. RATs will be taken in [D2L](https://ecat1.montana.edu/) to check your understanding of the material.  *A score of at least 50\% on a RAT will be converted to a 100\% after the due date by your instructor.* RATs for the week will be due each ***Wednesday at 11pm MST.**
+3. Explorations (10%): Explorations will primarily be in your textbook, though your instructor will provide some in [D2L](https://ecat1.montana.edu/) also.  Explorations will be due each **Thursday at 11pm MST**.
+4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will be due each **Monday at 11pm MST**.
+5. Midterm exams (30%): There will be two midterm exams (worth 12.5% each). **Midterm exam 1 will be during the week of September 22-25; Midterm exam 1 during November 4-10.** Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 2 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled data.  You are responsible for arranging your schedule to accommodating taking of exams.** 
+  + The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second thirds of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the MLC, and your instructor for help with questions. You may use other online resources, but beware – Google may not be able to help you. Blindly applying formulas you found through a search engine without understanding of the underlying statistical concepts will not earn you full points on an exam question. You are much better off reviewing the course resources posted on D2L.
+6. Final group project/Exam (20%): For your final, you will either complete a group project, take a final exam, or some combination of the two.  The exact format will be determined at a later date and this syllabus updated to reflect the decision.  Your instructor will e-mail you and post the format of the final exam to D2L at least 5 weeks prior to the last day of 'class'.  
+
+*Plan ahead*: In our experience, it takes 6 to 9 hours per week outside of class to achieve a good grade in Stat 216. As this is an online course, add the typical 'in class' time of 3 hours per week to that estimate.  By “good” we mean at least a C because a grade of D or below does not count toward fulfilling degree requirements. Many of you set your goals higher than just getting a C, and we fully support that. You need roughly 9 to 12 hours per week to review past activities, read feedback on previous assignments, complete current assignments, and prepare for the next week's class. 
+
+### Late work policy
+
+In general, make-up exams or late homework assignments will not be allowed. Case-by-case exceptions may be granted in only extreme cases at the discretion of the instructor (daily work) or Student Success coordinator (exams). You must speak to your instructor or Student Success coordinator on or before the due date or exam date and provide documentation explaining your absence for the instructor or Student Success coordinator to determine whether an exception should be granted. If you fail to provide documentation as requested then you will not be able to make-up missed work at all.   
 
 ### Letter grades
 
