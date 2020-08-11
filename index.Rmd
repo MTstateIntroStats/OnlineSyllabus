@@ -155,14 +155,16 @@ Each week, online students will be expected to:
 
 ### Online Instructor's Role
 
-Most of the communication in the course should be done using the D2L Discussion and Communication tools. Personal questions you may have can be emailed to your instructor using the D2L Email link. Your instructor will check email periodically, and try to respond to emails as promptly as possible if the email is received during usual daytime or early evening hours. Office hour will be the best way to living streaming Q&A.
+Most of the communication in the course should be done using the D2L Discussion and Communication tools. Personal questions you may have can be emailed to your instructor using the D2L Email link. Your instructor will check email periodically, and try to respond to emails as promptly as possible if the email is received during usual daytime or early evening hours. Office hours will be the best way for live-streaming Q&A.
 
 Questions on course material can be posted in the appropriate Discussion folders for that topic. Responses from your instructor to those questions will be posted as a response to that Discussion posting. You are encouraged to post questions on course material in the Discussion folder so that everyone may benefit from the responses! You can post questions and respond to each other's questions. It honestly helps to try to explain things to each other instead of waiting for the instructor’s responses, as trying to explain things out loud helps us learn even if the answer is not correct! We all have a voice in an online learning environment! If you wish to communicate with peers within D2L to discuss homework questions and the like, any messages you send privately to each other are not seen by course instructors. You may even view the Classlist and email other members of the course to ask questions or simply to generally communicate. Only what is posted in Discussion Folders is available for everyone to see. 
 
 
 ### Online Student's Role
 
-It is important for you to understand that your role in this class is not to be a passive note taker because there is no lecture in which to take notes! Each of you is expected to read and understand the material in the text, work on the homework problems, complete all assigned work, and ask questions about concepts you do not understand (and hopefully answer a few questions about the concepts you do understand) in the discussion section of the course. Simply reading the words in the text without comprehension, guessing your way through the assigned work, or looking at the solutions to the homework and thinking you understand how to do the problem is a waste of time and a sure way to fail the course. Your instructor will answer your questions but you have to learn the material on your own. In this class, more than any other course you have taken, you are responsible for your education. Note: The proper way to learn material presented in this course is to read the chapter, work through the homework problems, and then complete all assigned work on your own. Don’t rely only on the feedback to learn the material. Learning in this way will not train you to think independently, and may show you how to do one particular problem, but you will not be able to read another problem and be able to solve it. Point being: statistics is about understanding all aspects of an idea presented, not just a systematic way of using a formula. In other words, this is NOT a math class!
+It is important for you to understand that your role in this class is not to be a passive note taker because there is no lecture in which to take notes! Each of you is expected to read and understand the material in the text, work on the homework problems, complete all assigned work, and ask questions about concepts you do not understand (and hopefully answer a few questions about the concepts you do understand) in the discussion section of the course. Simply reading the words in the text without comprehension, guessing your way through the assigned work, or looking at the solutions to the homework and thinking you understand how to do the problem is a waste of time and a sure way to fail the course. Your instructor will answer your questions but you have to learn the material on your own. In this class, more than any other course you have taken, you are responsible for your education. 
+
+*Note*: The proper way to learn material presented in this course is to read the chapter, fill out the reading guide, watch the videos, work through the explorations, and then complete all assigned work on your own. Don’t rely only on the feedback to learn the material. Learning in this way will not train you to think independently, and may show you how to do one particular problem, but you will not be able to read another problem and be able to solve it. Point being: statistics is about understanding all aspects of an idea presented, not just a systematic way of using a formula. In other words, this is NOT a math class!
 
 ### Group Expectations
 
@@ -204,11 +206,11 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   scale_fill_manual(values=pal)
 ```
 
-1. D2L discussion (10%): Each week, you will answer questions on a reading, video, exploration, or provided relevant case study, posting answers and discussion in the D2L Discussion Forum.  Discussion posts will be due each **Sunday at 11pm MST**.
-2. Readiness Assessment Tests (RATs) (5%): You will be expected to complete the assigned textbook reading and videos prior to attending the in-class activity for each week. RATs will be taken in [D2L](https://ecat1.montana.edu/) to check your understanding of the material.  *A score of at least 50\% on a RAT will be converted to a 100\% after the due date by your instructor.* RATs for the week will be due each ***Wednesday at 11pm MST.**
-3. Explorations (10%): Explorations will primarily be in your textbook, though your instructor will provide some in [D2L](https://ecat1.montana.edu/) also.  Explorations will be due each **Thursday at 11pm MST**.
+1. D2L discussion (10%): Each week, you will either ask or answer questions on a reading, video, exploration, or provided relevant case study, posting questions, answers and discussion in the D2L Discussion Forum.  Discussion posts will be due each **Thursday at 11pm MST**.
+2. Readiness Assessment Tests (RATs) (5%): You will be expected to complete the assigned textbook reading and videos prior to completing the exploration(s) for each week. RATs will be taken in [D2L](https://ecat1.montana.edu/) to check your understanding of the material.  *A score of at least 50\% on a RAT will be converted to a 100\% after the due date by your instructor.* RATs for the week will be due each ***Wednesday at 11pm MST.**
+3. Explorations (10%): Explorations will primarily be in your textbook, though your instructor will provide some in [D2L](https://ecat1.montana.edu/) also.  Explorations will be due in Gradescope each **Thursday at 11pm MST**.
 4. Assignments (30%): You will complete weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will be due each **Monday at 11pm MST**.
-5. Midterm exams (30%): There will be two midterm exams (worth 12.5% each). **Midterm exam 1 will be during the week of September 22-25; Midterm exam 1 during November 4-10.** Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 2 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled data.  You are responsible for arranging your schedule to accommodating taking of exams.** 
+5. Midterm exams (30%): There will be two midterm exams (worth 12.5% each). **Midterm exam 1 will be during the week of September 22-25; Midterm exam 2 during November 4-10.** Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 2 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.** 
   + The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second thirds of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the MLC, and your instructor for help with questions. You may use other online resources, but beware – Google may not be able to help you. Blindly applying formulas you found through a search engine without understanding of the underlying statistical concepts will not earn you full points on an exam question. You are much better off reviewing the course resources posted on D2L.
 6. Final group project/Exam (20%): For your final, you will either complete a group project, take a final exam, or some combination of the two.  The exact format will be determined at a later date and this syllabus updated to reflect the decision.  Your instructor will e-mail you and post the format of the final exam to D2L at least 5 weeks prior to the last day of 'class'.  
 
@@ -242,30 +244,6 @@ The grade cutoffs may be shifted _downward_ at the end of the semester based on 
  
 ---
  
-# COVID-19-related expectations
-
-### Wearing masks in classrooms is required
-
-Face coverings are required in all indoor spaces and all enclosed or partially enclosed outdoor spaces. MSU requires all students to wear face masks or cloth face coverings in classrooms, laboratories and other similar spaces where in-person instruction occurs. MSU requires the wearing of masks in physical classrooms to help mitigate the transmission of SARS-CoV-2, which causes COVID-19.  The MSU community views the adoption of these practices as a mark of good citizenship and respectful care of fellow classmates, faculty, and staff.
-
-The complete details about MSU’s mask requirement can be found at [https://www.montana.edu/health/coronavirus/index.html](https://www.montana.edu/health/coronavirus/index.html). 
-
-These requirements from the Office of the Commissioner of Higher Education are detailed in the [MUS Healthy Fall 2020 Guidelines, Appendix B](https://www.mus.edu/coronavirus/Appendix%20B%20Face%20Covering%20Requirement.pdf).
-
-For more information: [https://www.montana.edu/health/coronavirus/prevention/index.html](https://www.montana.edu/health/coronavirus/prevention/index.html)
-
-Compliance with the face-covering protocol is expected. If a you do not comply with a classroom rule, you may be requested to leave class.  Section 460.00 of the [MSU Code of Student Conduct](https://www.montana.edu/policy/student_conduct/#460) covers “disruptive student behavior.” 
-
-### Accommodations for not wearing a mask
-Individuals whose unique and individual circumstances require an exception to the face covering requirement, as indicated by a medical professional, may request one in accordance with the campus ADA policies. Students should contact the Office of Disability Services at 994-2824 or drv@montana.edu to receive written permission from the Office of Disability Services at MSU. It is strongly recommended that students make contact prior to arriving on campus in order to provide adequate time for their request to be evaluated.
-
-### Health-related class absences
-Please evaluate your own health status regularly and refrain from attending class and other on-campus events if you are ill.  MSU students who miss class due to illness will be given opportunities to access course materials online. You are encouraged to seek appropriate medical attention for treatment of illness.  In the event of contagious illness, please do not come to class or to campus to turn in work. Instead notify us by email about your absence as soon as practical, so that accommodations can be made.  Please note that documentation (a Doctor’s note) for medical excuses is not required.  MSU University Health Partners--as part their commitment to maintain patient confidentiality, to encourage more appropriate use of healthcare resources, and to support meaningful dialogue between instructors and students--does not provide such documentation.
-
-
- <a href="#top">Back to top</a>
- 
- ---
 
 # Diversity and inclusivity statements
 
