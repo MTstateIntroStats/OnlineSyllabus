@@ -195,7 +195,7 @@ grades <- tribble(
   "Explorations", 10,
   "Assignments", 30,
   "Midterm exams (2)", 25,
-  "Final group project/Exam", 20
+  "Final exam", 20
 )
 grades$category <- fct_relevel(grades$category, "D2L discussion", "Readiness Assessment Tests (RATs)", "Explorations", "Assignments", "Midterm exams (2)", "Final group project/Exam")
 grades$location <- rep(1, 6)
@@ -208,7 +208,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
                         "Explorations (10%)",
                         "Assignments (30%)",
                         "Midterm exams (25%)",
-                        "Final group project/Exam (20%)"), 
+                        "Final exam (20%)"), 
                 y=c(95,87.5,80,60,32.5,10))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
