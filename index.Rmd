@@ -128,12 +128,8 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. _STAT 216 Coursepack_ --- workbook with reading guides and in-class activities
+2. [_STAT 216 Coursepack_](calendars/SummerCoursepack.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2021 students
 
-The *Stat 216 Coursepack* of in-class activities is available for purchase in the [MSU Bookstore](https://www.msubookstore.org/). Students are expected to purchase the coursepack new for your Summer session course.
-
-* [_STAT 216 Coursepack_: Preface](Coursepack-Preface.pdf)
-* [_STAT 216 Coursepack_: Chapter 1](Coursepack-Ch1.pdf)
 
 
 ### RStudio
@@ -218,7 +214,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
                         "Activities (10%)",
                         "Assignments (25%)",
                         "Midterm exams (30%)",
-                        "Final exam (15%)"), 
+                        "Group Project (15%)"), 
                 y=c(95,85,75,57.5,30,7.5))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
@@ -233,7 +229,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   + The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second halfs of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the MLC, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
 6. Group Project (15%): The project project will be completed in parts working with 2-3 other classmates.  You will be required to submit a research question and data collection plan, collect the data, and complete both a descriptive and inferential analysis of the data. You will turn in one project component per group each **Friday at 8pm**.
 
-*Plan ahead*: In our experience, a 3-credit course over a 6 week summer session is expected to account for 75 minutes each day, 5 days per week to earn a good grade.  By “good” we mean at least a C because a grade of D or below does not count toward fulfilling degree requirements. Many of you set your goals higher than just getting a C, and we fully support that. You need roughly 6 to 8 hours per week to review past activities, read feedback on previous assignments, complete current assignments, and prepare for the next week's class. 
+*Plan ahead*: A 3-credit course over a 6 week summer session is expected to account for 75 minutes each day, 5 days per week of instructional time.  This is the amount of time you should plan to spend reading and taking notes on the textbook, watching and taking notes on the videos, and attending synchronous learning sessions and office hours.  Additionally, our experience shows that an additional 15 to 22 hours per week of a 6 week course is required to obtain a good grade in this class.  By “good” we mean at least a C because a grade of D or below does not count toward fulfilling degree requirements. Many of you set your goals higher than just getting a C, and we fully support that. You need roughly 20 to 25 hours per week to review past activities, read feedback on previous assignments, complete current assignments, and prepare for the next week's class. 
 
 ### Late work policy
 
@@ -292,5 +288,13 @@ Plagiarism is an act of academic misconduct, which carries with it consequences 
 **In STAT 216, students involved in plagiarism on assignments (all parties involved) will receive a warning on the first offense and a 50% reduction in score. The second offense will result in a zero on that assignment, and the incident will be reported to the Dean of Students. Academic misconduct on an exam will result in a zero on that exam and will be reported to the Dean of Students, without exception.**
 
 [More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
+
+<a href="#top">Back to top</a>
+
+---
+
+# Copyright of intellectual property
+
+This syllabus, course lectures and presentations, and any course materials provided throughout this term are protected by U.S. copyright laws.  Students enrolled in the course may use them for their own research and educational purposes.  However, reproducing, selling or otherwise distributing these materials without written permission of the copyright owner is expressly prohibited, including providing materials to commercial platforms such as Chegg or CourseHero.  Doing so may constitute a violation of U.S. copyright law as well as MSU’s Code of Student Conduct.
 
 <a href="#top">Back to top</a>
