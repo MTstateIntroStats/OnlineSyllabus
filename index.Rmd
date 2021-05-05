@@ -207,7 +207,7 @@ grades <- tribble(
   "Midterm exams (2)", 30,
   "Group Project", 15
 )
-grades$category <- fct_relevel(grades$category, "D2L discussion", "Video Quizzes", "Explorations", "Assignments", "Midterm exams (2)", "Group project")
+grades$category <- fct_relevel(grades$category, "D2L discussion", "Video Quizzes", "Activities", "Assignments", "Midterm exams (2)", "Group project")
 grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
@@ -215,7 +215,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
   geom_text(aes(x=rep(1, 6), 
                 label=c("D2L discussion (10%)",
                         "Video Quizzes (10%)",
-                        "Explorations (10%)",
+                        "Activities (10%)",
                         "Assignments (25%)",
                         "Midterm exams (30%)",
                         "Final exam (15%)"), 
