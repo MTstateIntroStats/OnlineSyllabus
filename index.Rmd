@@ -128,7 +128,7 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. [_STAT 216 Coursepack_](calendars/SummerCoursepack.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2021 students
+2. [_STAT 216 Coursepack_](calendars/IntroStatActivities.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2021 students
 
 
 
