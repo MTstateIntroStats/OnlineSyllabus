@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE, warning=FALSE, message=FALSE)
 library(RColorBrewer)
 library(tidyverse)
 
-pal <- brewer.pal(6, 'Pastel1')
+pal <- brewer.pal(7, 'Pastel1')
 ```
 
 ---
@@ -38,55 +38,60 @@ email: jade.schmidt2@montana.edu
 ---
 
 ## Section 801 Instructor
-**Braden Scherting**
-email: bradenscherting@montana.edu  
+**Mcbeth Ahortor**
+email: mcbethahortor@montana.edu  
 
 ---
 
 ## Section 802 Instructor
-**Therese Lupariello** 
-email: thereselupariello@montana.edu  
-
+**Michael Kumi**
+email: michaelkumi@montana.edu  
 
 ---
 
 ## Section 803 Instructor
-[**Jing Zhang**](https://math.montana.edu/directory/faculty/2256996/jing-zhang){target="_blank"}  
-email: jingzhang1@montana.edu  
+**Will Hammond**  
+email: stevenhammond1@montana.edu  
 
 
 ---
 
-## Section 804 and 805 Instructor
-**Rachel Wyand**  
-email: rachel.wyand@montana.edu  
+## Section 804 Instructor
+**Therese Lupariello** 
+email: thereselupariello@montana.edu 
 
 ---
 
-## Section 806 Instructor
+## Section 805 Instructor
 **Jeremiah Pharr**
 email: jeremiahpharr@montana.edu  
 
 ---
 
+## Section 806 Instructor
+**Rachel Wyand**  
+email: rachel.wyand@montana.edu  
+
+
+
 
 # Course calendars
 
 * STAT 216 calendar for students in online sections...
-  - [First Summer Session](calendars/Sum1_21-Stat216_Calendar-Online.pdf)
-  - [Second Summer Session](calendars/Sum2_21-Stat216_Calendar-Online.pdf)
-* [Summer registration calendar](https://www.montana.edu/registrar/registration_add_drop_schedule.html#Summer%202020%20Registration%20(Add/Drop)%20Schedule)
+  - [First Summer Session](calendars/Sum1_22-Stat216_Calendar-Online.pdf)
+  - [Second Summer Session](calendars/Sum2_22-Stat216_Calendar-Online.pdf)
+* [Summer registration calendar](https://www.montana.edu/registrar/add_drop_schedule.html)
 
 ---
 
-# Course description and objectives
-Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and t-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
+# Course description
+Stat 216 is designed to engage you in the statistical investigation process from developing a research question and data collection methods to analyzing and communicating results. This course introduces basic descriptive and inferential statistics using both traditional (normal and $t$-distribution) and simulation approaches including confidence intervals and hypothesis testing on means (one-sample, two-sample, paired), proportions (one-sample, two-sample), regression and correlation. You will be exposed to numerous examples of real-world applications of statistics that are designed to help you develop a conceptual understanding of statistics. After taking this course, you should be able to:
 
-- Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines
-- Evaluate statistics and statistical studies you encounter in your other courses
-- Critically read news stories based on statistical studies as an informed consumer of data
-- Assess the role of randomness and variability in different contexts
-- Use basic methods to conduct and analyze statistical studies
+- Understand and appreciate how statistics affects your daily life and the fundamental role of statistics in all disciplines.
+- Evaluate statistics and statistical studies you encounter in your other courses.
+- Critically read news stories based on statistical studies as an informed consumer of data.
+- Assess the role of randomness and variability in different contexts.
+- Use basic methods to conduct and analyze statistical studies using statistical software.
 - Evaluate and communicate answers to the four pillars of statistical inference: How strong is the evidence of an effect? What is the size of the effect? How broadly do the conclusions apply? Can we say what caused the observed difference?
 
 ### MUS STAT 216 learning outcomes
@@ -128,14 +133,14 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. [_STAT 216 Coursepack_](calendars/IntroStatActivities.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2021 students
+2. [_STAT 216 Coursepack_](calendars/IntroStatActivities.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2022 students.  You can also purchase a hard copy of the workbook for under $10 and have it shipped to you [here](https://www.lulu.com/en/us/shop/stacey-hancock-and-jade-schmidt-and-melinda-yager/stat-216-summer-coursepack/paperback/product-4z7m7g.html?page=1&pageSize=4).
 
 
 
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
 
-You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your 7-character NetID (in the form x##x###, where x is a letter and # is a number), and your password is the password associated with your NetID. Your email address will not work to log in to the RStudio server.  **Note: Your NetID password expires every 180 days.  To avoid losing access to RStudio server, please [reset your NetID password](https://pwreset.montana.edu/react/) BEFORE the first day of classes.**
+You will access this software through the MSU RStudio server: [rstudio.math.montana.edu](https://rstudio.math.montana.edu/). Your username is your 7-character NetID (in the form x##x###, where x is a letter and # is a number), and your password is the password associated with your NetID. Your email address will not work to log in to the RStudio server.  **Note: Your NetID password expires every 180 days.  To avoid losing access to RStudio server, please [reset your NetID password](https://pwreset.montana.edu/react/) BEFORE the first day of your summer session**
 
 See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTextbook/#stat-computing) section in the Welcome chapter of our textbook for alternative options for accessing RStudio.
 
@@ -146,9 +151,9 @@ See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTex
   + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
   + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
-- [**Gradescope**](https://www.gradescope.com/): Submit and review assignments and exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+- [**Gradescope**](https://www.gradescope.com/): Submit and review assignments, labs and exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
 
-- [**Math Learning Center**](https://math.montana.edu/undergrad/mlc/index.html): Free drop-in tutoring for 100- and 200-level math and stat courses.
+- [**Math and Stat Center**](https://math.montana.edu/undergrad/msc/): Free drop-in tutoring for 100- and 200-level math and stat courses.
 
  
  
@@ -157,15 +162,15 @@ See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTex
  
 # Course format and organization
  
-This is an online course. This perhaps obviously means we will never meet in person. That greatly changes your role as a student as well as mine as an instructor. 
+This is an online course. This perhaps obviously means we will never meet in person. That greatly changes your role as a student as well as ours as instructors. 
 
 ### Weekly Expectations
 
 Each week, online students will be expected to:
 
 * **read** assigned sections of the textbook and **watch videos** (which have quizzes embedded) on that week's content,
-* complete 1 - 3 **activities** in the coursepack,
-* complete 2 **discussion posts** based on the week's content or a relevant case study,
+* complete 1 - 4 **activities** in the coursepack,
+* complete 2 **labs** in the coursepack,
 * complete 2 **assignments** in [Gradescope](https://www.gradescope.com/).
 
 ### Online Instructor's Role
@@ -196,38 +201,62 @@ Your grade in STAT 216 will contain the following components.
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 grades <- tribble(
   ~category,  ~percent,
-  "D2L discussion", 10,
   "Video Quizzes", 10,
   "Activities", 10,
-  "Assignments", 25,
-  "Midterm exams (2)", 30,
+  "Labs", 15,
+  "Assignments", 15,
+  "Midterm Exams (2)", 20,
+  "Final Exam", 15,
   "Group Project", 15
 )
-grades$category <- fct_relevel(grades$category, "D2L discussion", "Video Quizzes", "Activities", "Assignments", "Midterm exams (2)", "Group project")
-grades$location <- rep(1, 6)
+grades$category <- fct_relevel(grades$category, "Video Quizzes", "Activities", "Labs", "Assignments", "Midterm Exams (2)", "Final Exam", "Group project")
+grades$location <- rep(1, 7)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
-  geom_text(aes(x=rep(1, 6), 
-                label=c("D2L discussion (10%)",
-                        "Video Quizzes (10%)",
+  geom_text(aes(x=rep(1, 7), 
+                label=c("Video Quizzes (10%)",
                         "Activities (10%)",
-                        "Assignments (25%)",
-                        "Midterm exams (30%)",
+                        "Labs (15%)",
+                        "Assignments (15%)",
+                        "Midterm Exams (20%)",
+                        "Final Exam (15%)",
                         "Group Project (15%)"), 
-                y=c(95,85,75,57.5,30,7.5))) + 
+                y=c(95,85,72.5,57.5,40,22.5,7.5))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
 ```
 
-1. D2L discussion (10%): Each week, you will either ask or answer questions on a reading, video, activity, or provided relevant case study, posting questions, answers and discussion in the D2L Discussion Forum.  Discussion posts will be due each **Wednesday at 8pm MST**.
-2. Video quizzes (10%): You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section.   Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Each video with have at least 3 multiple choice, fill-in-the-blank, or true/false questions embedded in it.  You may re-load the video to re-take the quiz and improve your score as many times as you like up through the due date.  All videos are linked in D2L and will be due each **Tuesday and Friday at 8am MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
-3. Activities (10%): Activities are located within the Stat 216 coursepack.  Activities will be due in Gradescope each **Tuesday and Friday at 8pm MST**.
-4. Assignments (25%): You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will be due each **Monday and Thursday at 8pm MST**.
-5. Midterm exams (30%): There will be two midterm exams (worth 15% each). Midterm 1 will be taken on the third Monday of each Summer Session and Midterm 2 will be taken on the final Thursday of each Summer Session.  Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.** 
-  + The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second halfs of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the MLC, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
-6. Group Project (15%): The project project will be completed in parts working with 2-3 other classmates.  You will be required to submit a research question and data collection plan, collect the data, and complete both a descriptive and inferential analysis of the data. You will turn in one project component per group each **Friday at 8pm**.  [Detailed instructions, due dates, and rubrics for each project component are available here.](https://docs.google.com/document/d/1M-uz_NFvCF685WA9Gm4wZMDITWx1aRr5bYMWaMVGZNU/edit?usp=sharing)
+### Video quizzes (10%)
+
+You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Each video with have a few multiple choice, fill-in-the-blank, or true/false questions embedded in it.  You may re-load the video to re-take the quiz and improve your score as many times as you like up through the due date.  All videos are linked in D2L and will *typically* be due each **Monday and Wednesday at 11pm MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
+
+### Activities (10%)
+
+Activities are located within the Stat 216 coursepack.  Activities will be *typically* due in Gradescope each **Tuesday and Thursday at 11pm MST**. Activities will be checked for completion. Be sure to use the D2L checklists and course calendar to determine the due date for each activity.
+
+### Labs (15%)
+
+Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in Gradescope each **Tuesday and Thursday at 11pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
+
+### Assignments (15%)
+
+You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will *typically* be due each **Tuesday and Thursday at 11pm MST**. Assignments, like labs, will be used to assess your understanding of each module and will be graded based on correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each assignment.
+
+### Midterm exams (20%)
+
+There will be two midterm exams (worth 10% each). Midterm 1 will take place after completing modules 1, 2, and 3. Midterm 2 will take place after completing modules 4, 5, 6, and 7.  Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for each midterm.
+ + The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second thirds of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
+
+### Final exam (15%)
+
+The final exam will take place the final Thursday of the summer session.  It will be cumulative but focus more on modules 8, 9, and 10.  The final exam will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for the final exam
+ + The final exam is intended as an opportunity for you to consolidate your knowledge from the entire course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
+
+### Group Project (15%)
+
+The project project will be completed in parts working with 2-3 other classmates.  You will be required to submit a research question and data collection plan, collect the data, and complete both a descriptive and inferential analysis of the data. You will turn in one project component per group each **Friday at 11pm**.  [Detailed instructions, due dates, and rubrics for each project component are available here.](https://docs.google.com/document/d/1M-uz_NFvCF685WA9Gm4wZMDITWx1aRr5bYMWaMVGZNU/edit?usp=sharing)
 
 *Plan ahead*: A 3-credit course over a 6 week summer session is expected to account for 75 minutes each day, 5 days per week of instructional time.  This is the amount of time you should plan to spend reading and taking notes on the textbook, watching and taking notes on the videos, and attending synchronous learning sessions and office hours.  Additionally, our experience shows that an additional 15 to 22 hours per week of a 6 week course is required to obtain a good grade in this class.  By “good” we mean at least a C because a grade of D or below does not count toward fulfilling degree requirements. Many of you set your goals higher than just getting a C, and we fully support that. You need roughly 20 to 25 hours per week to review past activities, read feedback on previous assignments, complete current assignments, and prepare for the next week's class. 
 
