@@ -133,7 +133,7 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. [_STAT 216 Coursepack_](calendars/IntroStatActivities.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2022 students.  You can also purchase a hard copy of the workbook for under $10 and have it shipped to you [here](https://www.lulu.com/en/us/shop/stacey-hancock-and-jade-schmidt-and-melinda-yager/stat-216-summer-coursepack/paperback/product-4z7m7g.html?page=1&pageSize=4).
+2. [_STAT 216 Coursepack_](calendars/IntroStatActivities-SU22.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2022 students.  You can also purchase a hard copy of the workbook for under $15 and have it shipped to you [here](https://www.lulu.com/en/us/shop/stacey-hancock-and-jade-schmidt-and-melinda-yager/stat-216-summer-coursepack/paperback/product-4z7m7g.html?page=1&pageSize=4).
 
 
 
@@ -151,7 +151,7 @@ See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTex
   + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
   + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
-- [**Gradescope**](https://www.gradescope.com/): Submit and review assignments, labs and exam grades. For more details, see our [Gradescope Help for Students](http://www.math.montana.edu/courses/s216/GradescopeHelpForStudents.pdf) document
+- [**Gradescope**](https://www.gradescope.com/): Submit and review assignments, labs and exam grades. For more details, see our links in D2L under Content --> Primary Resources --> Gradescope Help
 
 - [**Math and Stat Center**](https://math.montana.edu/undergrad/msc/): Free drop-in tutoring for 100- and 200-level math and stat courses.
 
@@ -169,8 +169,8 @@ This is an online course. This perhaps obviously means we will never meet in per
 Each week, online students will be expected to:
 
 * **read** assigned sections of the textbook and **watch videos** (which have quizzes embedded) on that week's content,
-* complete 1 - 4 **activities** in the coursepack,
-* complete 2 **labs** in the coursepack,
+* complete 1 - 4 **activities** in the coursepack and upload to [Gradescope](https://www.gradescope.com/),
+* complete 2 **labs** in the coursepack and upload to [Gradescope](https://www.gradescope.com/),
 * complete 2 **assignments** in [Gradescope](https://www.gradescope.com/).
 
 ### Online Instructor's Role
@@ -234,11 +234,11 @@ You will be expected to complete the assigned textbook reading and videos prior 
 
 ### Activities (10%)
 
-Activities are located within the Stat 216 coursepack.  Activities will be *typically* due in Gradescope each **Tuesday and Thursday at 11pm MST**. Activities will be checked for completion. Be sure to use the D2L checklists and course calendar to determine the due date for each activity.
+Activities are located within the Stat 216 coursepack.  Activities will be *typically* due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11pm MST**. Activities will be checked for completion. Be sure to use the D2L checklists and course calendar to determine the due date for each activity.
 
 ### Labs (15%)
 
-Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in Gradescope each **Tuesday and Thursday at 11pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
+Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
 
 ### Assignments (15%)
 
@@ -247,12 +247,14 @@ You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.c
 ### Midterm exams (20%)
 
 There will be two midterm exams (worth 10% each). Midterm 1 will take place after completing modules 1, 2, and 3. Midterm 2 will take place after completing modules 4, 5, 6, and 7.  Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for each midterm.
- + The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second thirds of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
+
+* The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second thirds of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
 
 ### Final exam (15%)
 
-The final exam will take place the final Thursday of the summer session.  It will be cumulative but focus more on modules 8, 9, and 10.  The final exam will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for the final exam
- + The final exam is intended as an opportunity for you to consolidate your knowledge from the entire course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
+The final exam will take place the final Thursday of the summer session.  It will be cumulative but focus more on modules 8, 9, and 10.  The final exam will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for the final exam.
+
+* The final exam is intended as an opportunity for you to consolidate your knowledge from the entire course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
 
 ### Group Project (15%)
 
