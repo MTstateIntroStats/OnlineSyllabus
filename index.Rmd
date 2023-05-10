@@ -78,8 +78,8 @@ email: rachel.wyand@montana.edu
 # Course calendars
 
 * STAT 216 calendar for students in online sections...
-  - [First Summer Session](calendars/Sum1_22-Stat216_Calendar-Online.pdf)
-  - [Second Summer Session](calendars/Sum2_22-Stat216_Calendar-Online.pdf)
+  - [First Summer Session](calendars/Sum1_23-Stat216_Calendar-Online.pdf)
+  - [Second Summer Session](calendars/Sum2_23-Stat216_Calendar-Online.pdf)
 * [Summer registration calendar](https://www.montana.edu/registrar/add_drop_schedule.html)
 
 ---
@@ -133,7 +133,7 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. [_STAT 216 Coursepack_](calendars/IntroStatActivities-SU22.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2022 students.  You can also purchase a hard copy of the workbook for under $15 and have it shipped to you [here](https://www.lulu.com/en/us/shop/stacey-hancock-and-jade-schmidt-and-melinda-yager/stat-216-summer-coursepack/paperback/product-4z7m7g.html?page=1&pageSize=4).
+2. [_STAT 216 Coursepack_](calendars/IntroStatActivities-SU23.pdf) --- our PDF workbook with reading guides and activities, free for Summer 2023 students.  You can also purchase a hard copy of the workbook for under $15 and have it shipped to you [here](https://www.lulu.com/shop/st-hancock-and-jade-schmidt-and-melinda-yager/stat-216-summer-2023-coursepack/paperback/product-52pnw7.html?page=1&pageSize=4).
 
 
 
@@ -230,19 +230,19 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 
 ### Video quizzes (10%)
 
-You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Each video with have a few multiple choice, fill-in-the-blank, or true/false questions embedded in it.  You may re-load the video to re-take the quiz and improve your score as many times as you like up through the due date.  All videos are linked in D2L and will *typically* be due each **Monday and Wednesday at 11pm MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
+You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Each video with have a few multiple choice, fill-in-the-blank, or true/false questions embedded in it.  You may re-load the video to re-take the quiz and improve your score as many times as you like up through the due date.  All videos are linked in D2L and will *typically* be due each **Monday and Wednesday at 11:59 pm MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
 
 ### Activities (10%)
 
-Activities are located within the Stat 216 coursepack.  Activities will be *typically* due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11pm MST**. Activities will be checked for completion. Be sure to use the D2L checklists and course calendar to determine the due date for each activity.
+Activities are located within the Stat 216 coursepack.  Activities will be *typically* due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11:59 pm MST**. Activities will be checked for completion. Be sure to use the D2L checklists and course calendar to determine the due date for each activity.
 
 ### Labs (15%)
 
-Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
+Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11:59 pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
 
 ### Assignments (15%)
 
-You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will *typically* be due each **Tuesday and Thursday at 11pm MST**. Assignments, like labs, will be used to assess your understanding of each module and will be graded based on correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each assignment.
+You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will *typically* be due each **Tuesday and Thursday at 11:59 pm MST**. Assignments, like labs, will be used to assess your understanding of each module and will be graded based on correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each assignment.
 
 ### Midterm exams (20%)
 
