@@ -37,40 +37,20 @@ email: jade.schmidt2@montana.edu
 
 ---
 
-## Section 801 Instructor
-**Mcbeth Ahortor**
-email: mcbethahortor@montana.edu  
-
----
-
-## Section 802 Instructor
-**Michael Kumi**
-email: michaelkumi@montana.edu  
-
----
-
-## Section 803 Instructor
-**Will Hammond**  
-email: stevenhammond1@montana.edu  
-
-
----
-
-## Section 804 Instructor
-**Therese Lupariello** 
-email: thereselupariello@montana.edu 
-
----
-
-## Section 805 Instructor
+## Session I: Sections 801 and 802 Instructors
 **Jeremiah Pharr**
 email: jeremiahpharr@montana.edu  
 
+**Jason Roed**
+email: jason.roed@bsd7.org
+
 ---
 
-## Section 806 Instructor
-**Rachel Wyand**  
-email: rachel.wyand@montana.edu  
+## Session II: Section 803, 804, 805, and 806 Instructors
+**TBD**  
+email: 
+
+
 
 
 
