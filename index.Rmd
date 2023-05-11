@@ -1,6 +1,6 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: "Syllabus for Online Sections: Summer 2022"
+author: "Syllabus for Online Sections: Summer 2023"
 output:
   html_document:
       theme: cerulean
