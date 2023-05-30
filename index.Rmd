@@ -47,11 +47,17 @@ email: jason.roed@bsd7.org
 ---
 
 ## Session II: Section 803, 804, 805, and 806 Instructors
-**TBD**  
-email: 
+**McBeth Ahortor**  
+email: mcbethahortor@montana.edu
 
+**Eliot Liucci**  
+email: eliot.liucci@student.montana.edu
 
+**Samantha Ely**  
+email: sely@mhstigers.org
 
+**Heather Koyuk**  
+email: heatherkoyuk@montana.edu
 
 
 
