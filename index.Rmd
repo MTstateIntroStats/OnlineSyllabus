@@ -38,34 +38,44 @@ email: melinda.yager@montana.edu
 ---
 
 ## Session I: Sections 801 and 802 Instructors
-**Jeremiah Pharr**
-email: jeremiahpharr@montana.edu  
+**McBeth Ahorter**  
+email: mcbethahortor@montana.edu  
 
-**Jason Roed**
-email: jason.roed@bsd7.org
+**Bernard Ntiamoah**  
+email: bernard.ntiamoah@student.montana.edu
+
+**Nana Allotey**  
+email: nanaamaoyeallotey@montana.edu
+
+**Sarah Mensah**  
+email: sarahmensah@montana.edu
+
+**Lakviru Perera**  
+email: korathotagelaperera@montana.edu
 
 ---
 
 ## Session II: Section 803, 804, 805, and 806 Instructors
-**McBeth Ahortor**  
-email: mcbethahortor@montana.edu
+**Melinda Yager**  
+email: melinda.yager@montana.edu
 
-**Eliot Liucci**  
-email: eliot.liucci@student.montana.edu
+**Joseph Niakoh**  
+email: josephniakoh@montana.edu
 
-**Samantha Ely**  
-email: samantha.ely@montana.edu
+**Benjamin Devries**  
+email: benjamindevries1@montana.edu
 
-**Heather Koyuk**  
-email: heatherkoyuk@montana.edu
+**Ebenezer Mensah**  
+email: ebenezermensah1@montana.edu
 
-
+**Madison Alderman**  
+email: madisonalderman1@montana.edu
 
 # Course calendars
 
 * STAT 216 calendar for students in online sections...
-  - [First Summer Session](calendars/Sum1_23-Stat216_Calendar-Online.pdf)
-  - [Second Summer Session](calendars/Sum2_23-Stat216_Calendar-Online.pdf)
+  - [First Summer Session](calendars/Sum1_24-Stat216_Calendar-Online.pdf)
+  - [Second Summer Session](calendars/Sum2_24-Stat216_Calendar-Online.pdf)
 * [Summer registration calendar](https://www.montana.edu/registrar/add_drop_schedule.html)
 
 ---
@@ -119,28 +129,25 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. [_STAT 216 Coursepack_]--- purchased through XanEdu. Can purchase the hard copy, a pdf or both.
+2. [_STAT 216 Coursepack_]--- purchased through XanEdu. Can purchase the hard copy, a digital pdf or both.
 
 CoursePack Title: Stat_216_Coursepack
 ISBN: 9781711474120
 CPID: 1511657
 
-We're thrilled to assist you in accessing your XanEdu CoursePack. Let's walk you through the process step by step:
+1. First things first, let's head over to the XanEdu "Login/Register" page. To get there, simply click on this link: https://connect.xanedu.com/.
 
-First things first, let's head over to the XanEdu "Login/Register" page. To get there, simply click on this link: https://connect.xanedu.com/.
+2. If you've already registered for another CoursePack in the past, fantastic! Just log in using your existing account details. However, if this is your first time using XanEdu, no worries at all! Just click on the "Need an Account? Register Now" link. You'll be taken to a registration page where you can fill in your details. Once you're done, hit the Submit button to complete the registration process.
 
-If you've already registered for another CoursePack in the past, fantastic! Just log in using your existing account details. However, if this is your first time using XanEdu, no worries at all! Just click on the "Need an Account? Register Now" link. You'll be taken to a registration page where you can fill in your details. Once you're done, hit the Submit button to complete the registration process.
+3. Sit tight for a moment after you've submitted your registration. Keep an eye on your email inbox. You should receive an email from "Your Friends at XanEdu". Go ahead and open it up, then click the link inside. This step is important as it verifies your account and allows you to set a password for added security.
 
-Sit tight for a moment after you've submitted your registration. Keep an eye on your email inbox. You should receive an email from "Your Friends at XanEdu". Go ahead and open it up, then click the link inside. This step is important as it verifies your account and allows you to set a password for added security.
+4. You're almost there! Now that your account is all setup, it's time to access your desired CoursePack. Since you're logged in, navigate to the "Store" tab. There, you'll find a list of available CoursePacks. Click on the title of the specific pack you wish to purchase.
 
-You're almost there! Now that your account is all setup, it's time to access your desired CoursePack. Since you're logged in, navigate to the "Store" tab. There, you'll find a list of available CoursePacks. Click on the title of the specific pack you wish to purchase.
+5. Great job! You've found your CoursePack. Now, simply click on the "Add to Cart" button. When you're ready to complete your purchase, click on the Cart icon. It's located in the top right corner of the page. Follow the prompts to finalize your purchase.
 
-Great job! You've found your CoursePack. Now, simply click on the "Add to Cart" button. When you're ready to complete your purchase, click on the Cart icon. It's located in the top right corner of the page. Follow the prompts to finalize your purchase.
-
-Congratulations on your successful purchase! Now, let's go back to your shelf. You'll notice that your newly acquired CoursePack is waiting for you there. Simply click on the pack's title, and voila! You'll gain access to all the incredible materials it contains.
+6. Congratulations on your successful purchase! Now, let's go back to your shelf. You'll notice that your newly acquired CoursePack is waiting for you there. Simply click on the pack's title, and voila! You'll gain access to all the incredible materials it contains.
 
 If you have any difficulties creating your account or finding your CoursePack for purchase, please contact Customer Support for help (support@scholarus.com). 
-
 
 
 ### RStudio
@@ -236,7 +243,7 @@ grades %>% ggplot(aes(x=location, y=percent)) +
 
 ### Video quizzes (10%)
 
-You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Concept check quiz questions will be completed in Gradescope. *(Note that you can rewind/review the video as much as you like, and may submit your Video Quiz in Gradescope as many times as you like up through the due date.  You can also check your snwers in Gradescope after submitting (prior to the due date) by clicking on each question's hyperlink.  If a explanation appears, that means you answered the question correctly.)*  All videos are linked in D2L and will *typically* be due each **Monday (or Tuesday) and Wednesday at 8 pm MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
+You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Concept check quiz questions will be completed in Gradescope. *(Note that you can rewind/review the video as much as you like, and may submit your Video Quiz in Gradescope as many times as you like up through the due date.  You can also check your snwers in Gradescope after submitting (prior to the due date) by clicking on each question's hyperlink.  If a explanation appears, that means you answered the question correctly.)*  All videos are linked in D2L and will *typically* be due each **Monday (or Tuesday) and Wednesday at 11:59 pm MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
 
 ### Activities (10%)
 
@@ -244,11 +251,11 @@ Activities are located within the Stat 216 coursepack.  Activities will be *typi
 
 ### Labs (15%)
 
-Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 8 pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
+Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11:59 pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
 
 ### Assignments (15%)
 
-You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will *typically* be due each **Tuesday and Thursday at 8 pm MST**. Assignments, like labs, will be used to assess your understanding of each module and will be graded based on correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each assignment.
+You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will *typically* be due each **Tuesday and Thursday at 11:59 pm MST**. Assignments, like labs, will be used to assess your understanding of each module and will be graded based on correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each assignment.
 
 ### Midterm exams (20%)
 
@@ -284,8 +291,7 @@ B+|87-89.99%
 B|83-86.99%
 B-|80-82.99%
 C+|77-79.99%
-C|73-76.99%
-C-|70-72.99%
+C|70-76.99%
 D|60-69.99%
 F|<59.99%
 
@@ -324,7 +330,7 @@ Plagiarism is an act of academic misconduct, which carries with it consequences 
 
 **In STAT 216, students involved in plagiarism on assignments (all parties involved) will receive a warning on the first offense and a 50% reduction in score. The second offense will result in a zero on that assignment, and the incident will be reported to the Dean of Students. Academic misconduct on an exam will result in a zero on that exam and will be reported to the Dean of Students, without exception.**
 
-[More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/syllabus.html)
+[More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/academicmisconduct/academicmisconduct.html)
 
 <a href="#top">Back to top</a>
 
