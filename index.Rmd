@@ -38,9 +38,6 @@ email: melinda.yager@montana.edu
 ---
 
 ## Session I: Sections 801 and 802 Instructors
-**McBeth Ahorter**  
-email: mcbethahortor@montana.edu  
-
 **Bernard Ntiamoah**  
 email: bernard.ntiamoah@student.montana.edu
 
@@ -52,6 +49,10 @@ email: sarahmensah@montana.edu
 
 **Lakviru Perera**  
 email: korathotagelaperera@montana.edu
+
+Grader:
+**McBeth Ahorter**  
+email: mcbethahortor@montana.edu  
 
 ---
 
