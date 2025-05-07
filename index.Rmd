@@ -1,15 +1,15 @@
 ---
 title: 'STAT 216: Introduction to Statistics'
-author: 'Syllabus for Online Sections: Summer 2024'
+author: 'Syllabus for Online Sections: Summer 2025'
 output:
-  pdf_document:
-    toc: true
-    toc_depth: '3'
   html_document:
     theme: cerulean
     toc: true
     toc_depth: 3
     toc_float: true
+  pdf_document:
+    toc: true
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -26,60 +26,43 @@ pal <- brewer.pal(7, 'Pastel1')
 
 
 # Instructor contact information  {.tabset .tabset-fade}
-Your primary contact in STAT 216 is your instructor. If you have
-concerns that cannot be answered by your instructor, you may reach
-out to the Student Success Coordinator.
-
-Refer to your section's _D2L Content: Instructor Contact Information_ page for further information on contacting your section instructor.
+Your primary contact in STAT 216 is your instructor. 
 
 ---
 
-## Student Success Coordinator
-[**Melinda Yager**](https://www.math.montana.edu/directory/faculty/1582830/melinda-yager){target="_blank"}  
-email: melinda.yager@montana.edu  
-
----
-
-## Session I: Sections 801 and 802 Instructors
-**Bernard Ntiamoah**  
-email: bernard.ntiamoah@student.montana.edu
-
-**Nana Allotey**  
-email: nanaamaoyeallotey@montana.edu
+## Session I: Sections 801, 802, and 805 Instructors
+**Lakviru Perera**  
+email: korathotagelaperera@montana.edu
 
 **Sarah Mensah**  
 email: sarahmensah@montana.edu
 
-**Lakviru Perera**  
-email: korathotagelaperera@montana.edu
+**Justin Gomez**  
+email: justin.gomez@montana.edu
 
-Grader:
-**McBeth Ahorter**  
-email: mcbethahortor@montana.edu  
 
 ---
 
-## Session II: Section 803, 804, 805, and 806 Instructors
-**Melinda Yager**  
-email: melinda.yager@montana.edu
+## Session II: Section 803, 804, 806 and 807 Instructors
+**Jeremiah Pharr**  
+email: jeremiahpharr@montana.edu
 
-**Joseph Niakoh**  
-email: josephniakoh@montana.edu
+**Cole Capello**  
+email: colecappello@montana.edu
 
-**Benjamin Devries**  
-email: benjamindevries1@montana.edu
+**Gideon Addo**  
+email: gideonaddo@montana.edu
 
-**Ebenezer Mensah**  
-email: ebenezermensah1@montana.edu
+**Sam Miller**  
+email: smiller@mhstigers.org
 
-**Madison Alderman**  
-email: madisonalderman1@montana.edu
+
 
 # Course calendars
 
 * STAT 216 calendar for students in online sections...
-  - [First Summer Session](calendars/Sum1_24-Stat216_Calendar-Online.pdf)
-  - [Second Summer Session](calendars/Sum2_24-Stat216_Calendar-Online.pdf)
+  - [First Summer Session](calendars/Sum1_25-Stat216_Calendar-Online.pdf)
+  - [Second Summer Session](calendars/Sum2_25-Stat216_Calendar-Online.pdf)
 * [Summer registration calendar](https://www.montana.edu/registrar/add_drop_schedule.html)
 
 ---
@@ -133,7 +116,7 @@ You should have familiarity with computers and technology (e.g., Internet browsi
 Two "textbooks" are required for this course:
 
 1. [_Montana State Introductory Statistics with R_](https://mtstateintrostats.github.io/IntroStatTextbook/) --- our free, online textbook
-2. [_STAT 216 Coursepack_]--- available for free on D2L.
+2. STAT 216 Coursepack--- available for free on Canvas or you can purchase from the MSU Bookstore
 
 ### RStudio
 We will be using the statistical software [R](https://www.r-project.org/) through the IDE [RStudio](https://rstudio.com/products/rstudio/) for data visualization and statistical analyses. 
@@ -142,12 +125,15 @@ You will access this software through the MSU RStudio server: [rstudio.math.mont
 
 See the [Statistical Computing](https://mtstateintrostats.github.io/IntroStatTextbook/#stat-computing) section in the Welcome chapter of our textbook for alternative options for accessing RStudio.
 
+### Required course software
+All students are required to have a word processor and spreadsheet software installed on the personal device they plan to use for this course.  We *highly* recommend the use of Word and Excel.  If you do not currently have Word and/or Excel installed on your device, you can download the Microsoft Office 365 for Students for free by following the instructions [here](https://coe.montana.edu/it/students/student-software.html).
+
 
 ### Learning management tools
 
-- [**D2L**](https://ecat1.montana.edu/): Find your instructor and co-instructor/TA contact info, announcements, exploration information, instructor notes, exam review material, assignment and data files, discussion forums, gradebook.
-  + *Important*: Make sure you are receiving email notifications for any D2L activity. In D2L, click on your name, then Notifications. Check that D2L is using an email address that you regularly check; you have the option of registering a mobile number. Check the boxes to get notifications for announcements, content, discussions, and grades. 
-  + If you have a question about the course materials, computing, or logistics, please post your question to your D2L discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
+- [**Canvas**](https://ato.montana.edu/canvas/): Find your instructor contact info, announcements, instructor notes, exam review material, assignment and activity data and R files, discussion forums, gradebook.
+  + *Important*: Make sure you are receiving email notifications for any Canvas activity. In Canvas, go to your Profile, then Notifications. There you can enable your notification settings, including what notifications you want sent to your personal email for each class you are enrolled in.
+  + If you have a question about the course materials, computing, or logistics, please post your question to your Canvas discussion board instead of emailing your instructor. This ensures all students can benefit from the responses. Other students are encouraged to respond. 
 
 - [**Gradescope**](https://www.gradescope.com/): Submit and review assignments, labs and exam grades. For more details, see our links in D2L under Content --> Primary Resources --> Gradescope Help
 
@@ -167,22 +153,22 @@ This is an online course. This perhaps obviously means we will never meet in per
 Each week, online students will be expected to:
 
 * **read** assigned sections of the textbook and **watch videos** on that week's content,
-* complete 1 - 4 **activities** in the coursepack and upload to [Gradescope](https://www.gradescope.com/),
-* complete 2 **labs** in the coursepack and upload to [Gradescope](https://www.gradescope.com/),
-* complete 2 **assignments** in [Gradescope](https://www.gradescope.com/).
+* complete **notes** on the readings/videos in the coursepack and upload to [Gradescope](https://www.gradescope.com/), along with answering a few questions on the readings/videos
+* complete 4+ **activities or labs** in the coursepack and upload to [Gradescope](https://www.gradescope.com/),
+* complete 1 **assignment** in [Gradescope](https://www.gradescope.com/).
 
 ### Online Instructor's Role
 
-Most of the communication in the course should be done using the D2L Discussion and Communication tools. Personal questions you may have can be emailed to your instructor using the D2L Email link. Your instructor will check email periodically, and try to respond to emails as promptly as possible if the email is received during usual daytime or early evening hours. Office hours will be the best way for live-streaming Q&A.
+Most of the communication in the course should be done using the Canvas Discussion and Chat tools. Personal questions you may have can be emailed to your instructor using the Chat option or by sending an email to the email address listed above. Your instructor will check email periodically, and try to respond to emails as promptly as possible if the email is received during usual daytime or early evening hours. Office hours will be the best way for live-streaming Q&A.
 
-Questions on course material can be posted in the appropriate Discussion folders for that topic. Responses from your instructor to those questions will be posted as a response to that Discussion posting. You are encouraged to post questions on course material in the Discussion folder so that everyone may benefit from the responses! You can post questions and respond to each other's questions. It honestly helps to try to explain things to each other instead of waiting for the instructor’s responses, as trying to explain things out loud helps us learn even if the answer is not correct! We all have a voice in an online learning environment! If you wish to communicate with peers within D2L to discuss homework questions and the like, any messages you send privately to each other are not seen by course instructors. You may even view the Classlist and email other members of the course to ask questions or simply to generally communicate. Only what is posted in Discussion Folders is available for everyone to see. 
+Questions on course material can be posted in the appropriate Discussion folders for that topic. Responses from your instructor to those questions will be posted as a response to that Discussion posting. You are encouraged to post questions on course material in the Discussion folder so that everyone may benefit from the responses! You can post questions and respond to each other's questions. It honestly helps to try to explain things to each other instead of waiting for the instructor’s responses, as trying to explain things out loud helps us learn even if the answer is not correct! We all have a voice in an online learning environment! If you wish to communicate with peers within D2L to discuss homework questions and the like, any messages you send privately to each other are not seen by course instructors. You may even view the People tool and email other members of the course to ask questions or simply to generally communicate. Only what is posted in Discussions is available for everyone to see. 
 
 
 ### Online Student's Role
 
 It is important for you to understand that your role in this class is not to be a passive note taker because there is no lecture in which to take notes! Each of you is expected to read and understand the material in the text, work on the homework problems, complete all assigned work, and ask questions about concepts you do not understand (and hopefully answer a few questions about the concepts you do understand) in the discussion section of the course. Simply reading the words in the text without comprehension, guessing your way through the assigned work, or looking at the solutions to the homework and thinking you understand how to do the problem is a waste of time and a sure way to fail the course. Your instructor will answer your questions but you have to learn the material on your own. In this class, more than any other course you have taken, you are responsible for your education. 
 
-*Note*: The proper way to learn material presented in this course is to read the chapter, fill out the reading guide, watch the videos, work through the activities, and then complete all assigned work on your own. Don’t rely only on the feedback to learn the material. Learning in this way will not train you to think independently, and may show you how to do one particular problem, but you will not be able to read another problem and be able to solve it. Point being: statistics is about understanding all aspects of an idea presented, not just a systematic way of using a formula. In other words, this is NOT a math class!
+*Note*: The proper way to learn material presented in this course is to read the chapter, watch the videos, complete the video notes and video quiz, work through the activities, and then complete all assigned work on your own. Don’t rely only on the feedback to learn the material. Learning in this way will not train you to think independently, and may show you how to do one particular problem, but you will not be able to read another problem and be able to solve it. Point being: statistics is about understanding all aspects of an idea presented, not just a systematic way of using a formula. In other words, this is NOT a math class!
 
 ### Group Expectations
 
@@ -199,70 +185,82 @@ Your grade in STAT 216 will contain the following components.
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 grades <- tribble(
   ~category,  ~percent,
-  "Video Quizzes", 10,
-  "Activities", 10,
-  "Labs", 15,
-  "Assignments", 15,
-  "Midterm Exams (2)", 20,
-  "Final Exam", 15,
-  "Group Project", 15
+  "Video Notes and Quizzes", 10,
+  "Activities and Labs", 15,
+  "Assignments", 20,
+  "Midterm Exam", 20,
+  "Final Exam", 25,
+  "Group Project", 10
 )
-grades$category <- fct_relevel(grades$category, "Video Quizzes", "Activities", "Labs", "Assignments", "Midterm Exams (2)", "Final Exam", "Group project")
-grades$location <- rep(1, 7)
+grades$category <- fct_relevel(grades$category, "Video Notes and Quizzes", "Activities and Labs", "Assignments", "Midterm Exam", "Final Exam", "Group project")
+grades$location <- rep(1, 6)
 grades %>% ggplot(aes(x=location, y=percent)) +
   geom_col(aes(fill=category), col='black') + 
   guides(fill=FALSE) + 
-  geom_text(aes(x=rep(1, 7), 
-                label=c("Video Quizzes (10%)",
-                        "Activities (10%)",
-                        "Labs (15%)",
-                        "Assignments (15%)",
-                        "Midterm Exams (20%)",
-                        "Final Exam (15%)",
-                        "Group Project (15%)"), 
-                y=c(95,85,72.5,57.5,40,22.5,7.5))) + 
+  geom_text(aes(x=rep(1, 6), 
+                label=c("Video Notes and Quizzes (10%)",
+                        "Activities and Labs (15%)",
+                        "Assignments (20%)",
+                        "Midterm Exam (20%)",
+                        "Final Exam (25%)",
+                        "Group Project (10%)"), 
+                y=c(95,82.5,65,45,22.5,5))) + 
   labs(x='', y='Cumulative percent') + 
   theme(axis.text.x = element_blank()) +
   scale_fill_manual(values=pal)
 ```
 
-### Video quizzes (10%)
+### Video Notes and Quizzes (10%)
 
-You will be expected to complete the assigned textbook reading and videos prior to completing the activities(s) for each week. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Concept check quiz questions will be completed in Gradescope. *(Note that you can rewind/review the video as much as you like, and may submit your Video Quiz in Gradescope as many times as you like up through the due date.  You can also check your snwers in Gradescope after submitting (prior to the due date) by clicking on each question's hyperlink.  If a explanation appears, that means you answered the question correctly.)*  All videos are linked in D2L and will *typically* be due each **Monday (or Tuesday) and Wednesday at 11:59 pm MST**.  Be sure to use the D2L checklists and course calendar to determine the due date for each video.
+You will be expected to complete the assigned textbook reading and watch assigned videos prior to completing the activities and labs for each module. Each video will discuss the reading content and walk you through one or more examples for each section. Treat these videos as your lecture on the textbook section, meaning you should actively be taking notes while watching the videos. Guided video notes are provided in the coursepack linked in Canvas, or you can take your own notes on the videos.  Concept check quiz questions will be completed in Gradescope and you will also upload a PDF of your notes to these concept check quizzes. *(Note that you can rewind/review the video as much as you like, and may submit your Video Quiz in Gradescope as many times as you like up through the due date.  You can also check your snwers in Gradescope after submitting (prior to the due date) by clicking on each question's hyperlink.  If a explanation appears, that means you answered the question correctly.)*  
 
-### Activities (10%)
+* All videos are linked in Canvas and video quizzes will *typically* be due each **Tuesday 11:59 pm MST**. 
 
-Activities are located within the Stat 216 coursepack.  Activities will be *typically* due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 8 pm MST**. Activities will be checked for completion. Be sure to use the D2L checklists and course calendar to determine the due date for each activity.
+### Activities and Labs (15%)
 
-### Labs (15%)
+Activities and Labs are located within the Stat 216 coursepack.  You will need to work through the assigned activity or lab on your own or with other students.  Please utilize office hours for help completing the activities and labs
 
-Labs are located within the Stat 216 coursepack.  Labs will *typically* be due in [Gradescope](https://www.gradescope.com/) each **Tuesday and Thursday at 11:59 pm MST**.  Labs should be used to check your understanding of the activities within each module and will be graded based on both completion and correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each lab.
+* Select question(s) from each activity and lab will be turned into [Gradescope](https://www.gradescope.com/) to be graded for correctness, along with a PDF copy of the completed activity/lab which will be graded for correctness.
+* Activity/labs will *typically* be due in each **Tuesday at 11:59 pm MST**. 
 
-### Assignments (15%)
 
-You will complete bi-weekly assignments in [Gradescope](https://www.gradescope.com/).  Assignments will *typically* be due each **Tuesday and Thursday at 11:59 pm MST**. Assignments, like labs, will be used to assess your understanding of each module and will be graded based on correctness.  Be sure to use the D2L checklists and course calendar to determine the due date for each assignment.
+### Assignments (20%)
 
-### Midterm exams (20%)
+You will complete weekly assignments in [Gradescope](https://www.gradescope.com/). These should be completed individually (meaning all answers should be written in your own words), but you may use your classmates, tutors, or your instructor/co-instructor/TA for assistance. 
 
-There will be two midterm exams (worth 10% each). Midterm 1 will take place after completing modules 1, 2, and 3. Midterm 2 will take place after completing modules 4, 5, 6, and 7.  Midterm exams will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for each midterm.
+* Weekly assignments will be due each **Wednesday at 11:59 pm MST**.
 
-* The midterm exams are intended as an opportunity for you to consolidate your knowledge from the first and second thirds of our course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
+### Midterm exam (20%)
 
-### Final exam (15%)
+There will be one midterm exam, **which must be taken with a testing center**.  Most universities/colleges offer testing services (for a fee). If you are in Bozeman on the date of the midterm exam, we will offer proctoring services for free.  Please see Canvas for times and locations available at Montana State to complete your midterm exam. **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams and setting.**
 
-The final exam will take place the final Thursday of the summer session.  It will be cumulative but focus more on modules 8, 9, and 10.  The final exam will be taken in [Gradescope](https://www.gradescope.com/).  You will have 3 hours from the time you open the exam to complete it.  **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams.**  Be sure to use the D2L checklists and course calendar to determine the due date for the final exam.
+* You will need to schedule a proctoring appointment on your own to take the midterm exam.  You will need to email your instructor the name and email address of the proctoring center where you will be taking your exam *at least 5 days in advance of the exam date!*
+* You will be allowed 1 hour and 50 minutes to complete your midterm exam.  
+* You will be allowed a calculator (any type) and one (1) sheet of notes (8.5 by 11in, front and back, handwritten only).
+* You will be provided a formula sheet as well.
+* Summer Session I: Midterm Exam on Monday, June 9th
+* Summer Session II: Midterm Exam on Monday, July 21st
 
-* The final exam is intended as an opportunity for you to consolidate your knowledge from the entire course, so you are highly encouraged to take the exam using only your personal study materials. However, we rarely do statistics in a vacuum, so you will be allowed access to other students, the Math and Stat Center, and your instructor for help with questions. You are NOT allowed to use other online \tutoring\ sites (such as Chegg). 
+### Final exam (25%)
 
-### Group Project (15%)
+Your final exam **must be taken with a testing center**.  Most universities/colleges offer testing services (for a fee). If you are in Bozeman on the date of the final exam, we will offer proctoring services for free.  Please see Canvas for times and locations available at Montana State to complete your final exam. **Exams must be taken on the scheduled date.  You are responsible for arranging your schedule to accommodating taking of exams and setting.**
 
-The project project will be completed in parts working with 2-3 other classmates.  You will be required to submit a research question and data collection plan, collect the data, and complete both a descriptive and inferential analysis of the data. You will turn in one project component per group each **Friday at 8 pm**.  [Detailed instructions, due dates, and rubrics for each project component are available here.](https://docs.google.com/document/d/1M-uz_NFvCF685WA9Gm4wZMDITWx1aRr5bYMWaMVGZNU/edit?usp=sharing)
+* You will need to schedule a proctoring appointment on your own to take the final exam.  You will need to email your instructor the name and email address of the proctoring center where you will be taking your exam *at least 5 days in advance of the exam date!*
+* You will be allowed 1 hour and 50 minutes to complete your final exam.  
+* You will be allowed a calculator (any type) and two (2) sheets of notes (8.5 by 11in, front and back, handwritten only).
+* You will be provided a formula sheet as well.
+* Summer Session I: Midterm Exam on Thursday, June 26th
+* Summer Session II: Midterm Exam on Thursday, August 7th
+
+### Group Project (10%)
+
+The project project will be completed in parts working with 2-3 other classmates.  You will be required to submit a research question and data collection plan, collect the data, and complete both a descriptive and inferential analysis of the data. You will turn in one project component per group each **Friday at 11:59 pm**.  [Detailed instructions, due dates, and rubrics for each project component are available here.](https://docs.google.com/document/d/1M-uz_NFvCF685WA9Gm4wZMDITWx1aRr5bYMWaMVGZNU/edit?usp=sharing)
 
 *Plan ahead*: A 3-credit course over a 6 week summer session is expected to account for 75 minutes each day, 5 days per week of instructional time.  This is the amount of time you should plan to spend reading and taking notes on the textbook, watching and taking notes on the videos, and attending synchronous learning sessions and office hours.  Additionally, our experience shows that an additional 15 to 22 hours per week of a 6 week course is required to obtain a good grade in this class.  By “good” we mean at least a C because a grade of D or below does not count toward fulfilling degree requirements. Many of you set your goals higher than just getting a C, and we fully support that. You need roughly 20 to 25 hours per week to review past activities, read feedback on previous assignments, complete current assignments, and prepare for the next week's class. 
 
 ### Late work policy
 
-In general, make-up exams or late homework assignments will not be allowed. Case-by-case exceptions may be granted in only extreme cases at the discretion of the instructor (daily work) or Student Success coordinator (exams). You must speak to your instructor or Student Success coordinator on or before the due date or exam date and provide documentation explaining your absence for the instructor or Student Success coordinator to determine whether an exception should be granted. If you fail to provide documentation as requested then you will not be able to make-up missed work at all.   
+In general, make-up exams or late homework assignments/quizzes/activites/labs will not be allowed. Case-by-case exceptions may be granted in only extreme cases at the discretion of the instructor. You must speak to your instructor on or before the due date or exam date and provide documentation explaining your absence for the instructor to determine whether an exception should be granted. If you fail to provide documentation as requested then you will not be able to make-up missed work at all.   
 
 ### Letter grades
 
@@ -286,9 +284,8 @@ The grade cutoffs may be shifted _downward_ at the end of the semester based on 
 <a href="#top">Back to top</a>
  
 ---
- 
 
-# Diversity and inclusivity statements
+# Diversity and inclusivity
 
 Respect for Diversity: It is our intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. It is our intent to present materials and activities that are respectful of diversity: gender identity, sexual orientation, disability, age, socioeconomic status, ethnicity, race, religion, culture, perspective, and other background characteristics. Your suggestions about how to improve the value of diversity in this course are encouraged and appreciated. Please let us know ways to improve the effectiveness of the course for you personally or for other students or student groups.
 
@@ -296,7 +293,7 @@ In addition, in scheduling exams, we have attempted to avoid conflicts with majo
 
 Support for Inclusivity: We support an inclusive learning environment where diversity and individual differences are understood, respected, appreciated, and recognized as a source of strength. We expect that students, faculty, administrators and staff at MSU will respect differences and demonstrate diligence in understanding how other peoples' perspectives, behaviors, and worldviews may be different from their own.
 
-<a href="#top">Back to top</a>
+
  
 ---
 
@@ -309,20 +306,26 @@ Students in an academic setting are responsible for approaching all assignments 
 3. learning and using appropriate citation conventions within the field in which they are studying; and
 4. asking their instructor for guidance when they are uncertain of how to acknowledge the contributions of others in their thinking and writing.
 
-When students fail to adhere to these responsibilities, they may intentionally or unintentionally "use someone else’s language, ideas, or other original (not common-knowledge) material without properly acknowledging its source" [http://www.wpacouncil.org](http://www.wpacouncil.org). When the act is intentional, the student has engaged in plagiarism.
+When students fail to adhere to these responsibilities, they may intentionally or unintentionally "use someone else's language, ideas, or other original (not common-knowledge) material without properly acknowledging its source" [http://www.wpacouncil.org](http://www.wpacouncil.org). When the act is intentional, the student has engaged in plagiarism.
 
 Plagiarism is an act of academic misconduct, which carries with it consequences including, but not limited to, receiving a course grade of “F” and a report to the Office of the Dean of Students. Unfortunately, it is not always clear if the misuse of sources is intentional or unintentional, which means that you may be accused of plagiarism even if you do not intentionally plagiarize. If you have any questions regarding use and citation of sources in your academic writing, you are responsible for consulting with your instructor before the assignment due date. In addition, you can work with an MSU Writing Center tutor at any point in your writing process, including when you are integrating or citing sources. You can make an appointment and find citation resources at www.montana.edu/writingcenter.
 
-**In STAT 216, students involved in plagiarism on assignments (all parties involved) will receive a warning on the first offense and a 50% reduction in score. The second offense will result in a zero on that assignment, and the incident will be reported to the Dean of Students. Academic misconduct on an exam will result in a zero on that exam and will be reported to the Dean of Students, without exception.**
+**<mark style="background-color: lightblue"> In STAT 216, assignments that include the same wording as another student, regardless of whether that student was cited in your sources, will be considered plagiarism and will be treated as such.</mark> Students involved in plagiarism on assignments (all parties involved) will receive a zero grade on that assignment. The second offense will result in a zero on that assignment, and the incident will be reported to the Dean of Students. Academic misconduct on an exam will result in a zero on that exam and will be reported to the Dean of Students, without exception.**
 
 [More information about Academic Misconduct from the Dean of Students](https://www.montana.edu/deanofstudents/academicmisconduct/academicmisconduct.html)
 
-<a href="#top">Back to top</a>
-
 ---
 
-# Copyright of intellectual property
+# Policy on intellectual property
 
 This syllabus, course lectures and presentations, and any course materials provided throughout this term are protected by U.S. copyright laws.  Students enrolled in the course may use them for their own research and educational purposes.  However, reproducing, selling or otherwise distributing these materials without written permission of the copyright owner is expressly prohibited, including providing materials to commercial platforms such as Chegg or CourseHero.  Doing so may constitute a violation of U.S. copyright law as well as MSU’s Code of Student Conduct.
 
-<a href="#top">Back to top</a>
+
+---
+# Policy on the use of AI language models{#AI}
+
+In this course, you may utilize generative AI language models, including ChatGPT, as a resource to support your work outside of class (during class, you should seek assistance from group members or instructors). AI language models are powerful tools developed to generate text based on the input provided. **While the AI language models can help refine your writing and coding, it is important to remember that it is an AI system and not a substitute for your critical thinking and creativity. Due to the nature of statistics and this course, an AI-generated answer may be incomplete, overly complex, or even incorrect.** If you do not understand a concept or a question asked, we *highly* recommend visiting the [Math and Stats Center](https://math.montana.edu/undergrad/msc/), emailing or visiting with a member of your instructional team, or using the search feature within the online textbook before turning to Google or AI.
+
+If you choose to use this tool, apply it as a supplement and do not rely solely on its suggestions. Ultimately, you are responsible for the content and quality of your work. Therefore, you should critically evaluate ChatGPT outputs for accuracy, potential bias, and relevancy. When utilizing AI language models, it is essential to ensure that your writing and coding remains original and properly attributed, including citing outputs or text generated by ChatGPT. **If you choose to use AI language models to assist you on labs or assignments, you must cite the source used. Failure to do so will result in earning a 0 on all problems in which AI language models usage has been detected.**
+
+Please see the How to cite ChatGPT in MLA Style [resource](https://style.mla.org/citing-generative-ai/). We encourage you to use AI language models to enhance your writing and coding skills, experiment with its capabilities, and learn from its suggestions. If you have any questions or concerns regarding using AI language models for assignments, please discuss them with us.
